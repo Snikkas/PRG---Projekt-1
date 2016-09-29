@@ -1,0 +1,4 @@
+In dieser Datei speicher ich alle relevanten und immer wieder zu gebrauchenden Kommandos, die man für die Bedienung von Github über die Kommandozeile benötigt:
+
+vim "textfile" (ohne "") -> Bearbeitung eines Textes (i = Insert / esc = exit text editing / :x = Save%quit)
+
