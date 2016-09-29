@@ -1,4 +1,25 @@
 In dieser Datei speicher ich alle relevanten und immer wieder zu gebrauchenden Kommandos, die man für die Bedienung von Github über die Kommandozeile benötigt:
 
-vim "textfile" (ohne "") -> Bearbeitung eines Textes (i = Insert / esc = exit text editing / :x = Save&quit)
+touch File.txt -> Erstellt lokal eine neue Datei
+vim "textfile" (ohne "") -> Bearbeitung eines Textes (i = Insert / esc = exit text editing / :x = Save&Quit /:q = Quit)
+
+git config --global user.name "USERNAME"  -> zum Einloggen
+git config --global user.email "EMAIL"    -> zum Einloggen
+cd Desktop (oder ein anderes Verzeichnis) -> Verzeichnis wechseln in der Kommandozeile
+git clone "https://github.com/USENAME/REPOSITORY.git" -> (Ohne "") download/copy Alles vom Repo
+
+ls              -> Zeigt alle Datein im Verzeichnis an
+git status      -> Zeigt was geändert wurde und was nicht. Z.b. Noch nicht hinzugefügte Dateien vom Lokalen auf GitHub
+git log         -> Zeigt alle Änderungen an. Alles was commited wurde. Mit Timestamp und Git-ID
+
+git remote add origin "https://github.com/USENAME/REPOSITORY.git" -> (Ohne "") Erstellt ein eine Origin. Da wo alles lokale herkommt.
+
+git add .       -> Fügt Dateien hinzu, die noch nicht "getrackt" sind. (Rot bei "git status")
+git add FILE    -> Fügt die genannte Datei aus dem Verzeichnis in einen "Zwischenspeicher"
+git commit -m "Update Text"  -> Aktuallisiert neue oder bearbeitete Dateien mit einem Beschreibungstext.
+git push -u origin master    -> Das Hochgeladene von der Origin zu dem masterverzeichnis hinzufügen. UPDATEN
+git push        -> Fügt das vom "git push -u origin master" hinzu. Jedoch ist "git push" die Schnellvariante von dem vorherigen.
+
+git pull origin master       -> Zieht alles von GitHub auf das lokale Verzeichnis
+git pull        -> Funktioniert wie "git push"
 
