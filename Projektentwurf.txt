@@ -54,3 +54,5 @@ Dinge die man als Spieler braucht, um Angriffe abzuwehren oder zu umgehen:
 
 3.32
 -Reaktion/Reaktiv:
+	-Waffen
+	-Personal
