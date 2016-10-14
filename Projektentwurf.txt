@@ -56,3 +56,11 @@ Dinge die man als Spieler braucht, um Angriffe abzuwehren oder zu umgehen:
 -Reaktion/Reaktiv:
 	-Waffen
 	-Personal
+
+===================================
+=== Feedback Alpers, 2016-10-14 ===
+===================================
+
+Leider kann ich zurzeit kaum ein Feedback abgeben, da Sie abgesehen von den drei Stichpunkten am Anfang noch kaum etwas ausgearbeitet haben. Diese drei Stichpunkte entsprechen dagegen der Projektidee, die Sie erhalten haben.
+
+Auﬂerdem fehlt die vorgegebene Verzeichnisstruktur bislang vollst‰ndig.
