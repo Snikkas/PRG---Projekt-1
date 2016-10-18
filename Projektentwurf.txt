@@ -1,3 +1,6 @@
+==============================================================================
+=== [Projektidee], v_[0.1], [2016-10-05] ===
+==============================================================================
 Projekt 1: Priaten Simulation
 
 =============================
@@ -15,7 +18,64 @@ Projektentwurf - Leitfaden:
 
 
 
+==============================================================================
+=== [Beschreibung des Projekts], v_[0.2], [2016-10-18] ===
+==============================================================================
+//Vor Beginn des Spiels
+-Das Spiel soll über ein Desktopsymbol aufrufbar sein.
+-Nach dem Starten wird man in ein Hauptmenu geführt. Hier muss es Dinge geben, wie ein "Spiel starten" sowie "Beenden" und "Wie spiele ich" Knopf geben. D.h. funktionierende Knöpfe. 
+-Beim Klick auf "Wie spiele ich" soll sich ein weiteres Fenster öffnen, dass mit mindestens einem Button versehen ist, um wieder zurück zum Hauptmenu zu kommen. Des Weiteren kann es sein, je nachdem wie viel dort geschrieben ist,
+dass man eine Scrollbar benötigt, oder weitere Buttons, um von Seite 1 auf die nächste Seite zu wechseln. Diese soll allerdings im selben Fenster auftauchen. Lediglich der Text innerhalb des Fensters soll sich ändern.
+-Das Hauptmenu wird in einem Fenster zu sehen sein, dass ein eigenes Element ist. D.h die Knöpfe sollen nicht lose im Raum herumschweben.
+-Die Fenstergröße, wenn man die Anwendung startet, soll für's erste nur knapp größer sein, als das Hauptmenu.
+-/ Eventuell kann man noch einbauen, dass sich das UI (user interface) im Verhältnis zur Fenstergröße der Anwendung skaliert.
 
+//Während des Spiels
+-Funktionierende Inhalte, wie unten aufgelistet
+-Das Spiel soll jederzeit pausierbar sein. D.h. ein Pausebutton muss eingerichtet sein. ESC würde auch gehen. Wenn Pause aufgerufen wird, soll der Hintergrund ausgegraut sein und in der Mitte des Fensters ein "PAUSE" Label zu sehen sein.
+-Wenn man ESC statt des Pausebuttons benutzt, soll ein Menu aufgerufen werden. Es erscheint ein Fenster, dass einen "Neustart" sowie einen "Spiel Beenden" und "Zurück zum Hauptmenu" Button hat.
+-Das spiel soll daraus bestehen, dass man sein Schiff als Kaptain vor Angreifern präventiv und/oder reaktiv schützt.
+-Es soll eine Auswahl an Gegenmaßnahmen zu Auswahl stehen, von denen man nur eine maximale Anzahl an Dingen ausrüsten kann, um sich vorzubereiten.
+-Nachdem das Spiel gestartet wurde kommt man in ein Ausrüstungsfenster. Dort kann man mit den Pfeiltasten oder mit dem Klicken auf die Gegenstände diese Auswählen
+-Dieses Fenster braucht also auch eine Scrollbar oder einen Button für das Wechseln der Seiten. Außerdem müssen die ausgewählten Elemente jeweils eine eigene Beschreibung haben.
+-Des weiteren braucht man einen Knopf, um zu bestätigen, dass man mit seiner Auswahl zufrieden ist, sodass das Spiel startet. Außerdem muss die Anwendung selbst erkennen, 
+wann man die maximale Anzahl an Gegenständen ausgewählt hat. 
+-Es gibt ein Inventar, in dem die Gegenmaßnamen gespeichert werden. Mit einem Mouseover soll man einen Tooltip bekommen, der erneut erklärt, was diese jeweils genau tun.
+-Wenn alle Gegenmaßnahmen ausgewählt wurden, "beginnt" das Spiel. Die genaue Umsetztung steht noch nicht fest (siehe unten).
+-Man sieht eine Karte, wo man verschiedene Routen einschlagen kann. Jede dieser Punkte auf der Route, die man in Reihnfolge abgehen muss, soll eventuell andere Gegnertypen
+beinhalten. Dies ist abhängig von der "Umgebung" der Route.
+-Es soll zufällig generiert verschiedene Gegnertypen auftreten, basierend auf den präventiven Gegenmaßnahmen. D.h. das Spiel hat eine Liste von Gegnertypen, die jeweils
+Stärken, Schwächen und Verhaltensmuster haben.
+-Präventive Gegenmaßnahmen sollen bestimmte Gegnertypen fernhalten.
+-Reaktive Gegenmaßnahmen sollen Gegner beseitigen, die dennoch aufgetaucht sind.
+-Die KI der Gegener muss also auf die Gegenmaßnahmen abgestimmt sein. Umsetztbar mit einfachen if-Klauseln. Ebenso müssen bestimmte Gegnertypen verschiedenen Punkten der Route
+zugewiesen sein. Hierbei handelt es sich dann um die "Umgebung", in welchen sich diese Aufhalten.
+-Das Spiel ist gewonnen, wenn man sein Ziel erreicht hat. D.h das Programm braucht für jede Station eine Abfrage, um Gegner zu generieren und das Ende des Spiel zu erkennen.
+-Das Spiel ist verlorenen, wenn man nicht in der Lage war sein Schiff zu verteidigen. Das Schiff soll Lebenspunkte haben, die abgezogen werden, wenn der Spiele nicht in der
+Lage war die Angreifer gescheit abzuwehren. Die reaktiven Gegenmaßnahmen sollen Schaden verursachen. Verschiedene Gegenmaßnahen verursachen verschieden Schaden an verschiedenen
+Gegnertypen. D.h es gibt Typen von Schaden, gegen die die Gegner jeweils resistent oder schwach sind. Der Schaden am Spieler soll für's erste linear sein.
+-Bossgegner soll es vorerst nicht geben.
+
+//Ende des Spiels
+-Wenn das Spiel beendet wird, ob erfolgreich oder nicht, soll dementsprechend ein Endbildschirm zusehen sein, welches "Sieg" oder "Niederlage" anzeigt. 
+-Weiter unten im Fenster sollen dann Buttons sein. "Neustart", "Zurück zum Hauptmenü" und "Spiel Beenden"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==============================================================================
+=== [UNTEN - Content-Ideen-Brainstorm], v_[0.21], [2016-10-18] ===
+==============================================================================
 ============================
 ============================
 

@@ -1,0 +1,310 @@
+=== Zusammenfassung ===
+
+In diesem Dokument werden die anfänglichen Bedinungen für das Projekt 1 im Wintersemester 2016/17 für Media Systems nach PO 2008 beschrieben. 
+
+=== Wichtige Ergänzungen ===
+
+(1) Es wird im Laufe des Semesters kontinuierlich Anpassungen geben, weil das bei realen Projekten grundsätzlich so ist. Diese kontinuierlichen Änderungen müssen jeweils in den Projekten beachtet werden, auch wenn dadurch massive Änderungen an den Projekten nötig werden.
+
+(2) Weiterhin müssen Hinweise im individuellen Feedback beachtet werden und es gelten die in der Veranstaltung sowie in Rundmails mitgeteilten Fristen, bzw. Änderungen der Fristen. Auch das gilt, weil es in realen Projekten genau so passiert.
+
+====================================
+=== Aufgabe 1 - Arbeiten mit Git ===
+====================================
+
+1.1. Erstellen Sie auf GitHub einen Account. Ihr Account-Name sollte nicht ihr realer Name sein, damit spätere Arbeitgeber die Projektdaten nicht mit Ihnen in Verbindung bringen können. Den Account sollten Sie aus dem gleichen Grund am besten nur für Projekte im Studium benutzen.
+
+1.2. Arbeiten Sie sich so in Git ein, dass Sie verstehen, 
+- was ein Repository ist, 
+- warum Versionskontrolle ein extrem wichtiges Werkzeug ist. 
+Außerdem müssen Sie im Stande sein, 
+- über die Kommandozeile ein Repository zu clonen, 
+- zu aktualisieren, 
+- eigene Arbeit ins Repository auf GitHub zu pushen und 
+- ggf. bei Kollisionen einen merge durchzuführen.
+
+1.3. Erstellen Sie ein neues Repository in Ihrem GitHub-Account, in dem Sie Verzeichnisse mit den folgenden Namen erstellen:
+Dokumentation
+Microservices_de
+Design
+Funktionalitaeten
+
+1.4. Immer, wenn Sie eine Änderung durchgeführt haben, die das Projekt so erweitert, dass eine relevante Änderung vorhanden ist, dann commiten und pushen Sie das.
+
+1.5. Jeder commit muss einen knappen und klaren Titel haben. Wenn Sie die Projektbeschreibung geändert haben, dann lautet diese z.B. "Projektbeschreibung um ... ergänzt." Wenn Sie einen Microservice implementiert haben, dann lautet der Titel "Microservice ... implementiert." Wenn Sie einen Fehler korrigiert haben, benennen Sie den Fehler im Titel. Usw. usf.
+
+Titel wie "Update strukt.html" oder ähnliches sagen gar nichts über den Inhalt des Updates aus und sind deshalb schlecht.
+
+1.6. Der erste Schritt an jedem Tag, an dem Sie am Projekt weiterarbeiten ist ein pull, damit Sie sehen, ob jemand anders etwas am Projekt geändert hat (z.B. ob von mir ein Feedback gekommen ist.)
+
+1.7. Auch wenn Sie mit Änderungen noch nicht fertig sind, sollten Sie im Schnitt einmal pro Stunde pushen. Wenn Sie später mit der Programmierung anfangen, ist es allerdings kein gutes Zeichen, wenn Sie für einen commit mehr als eine Stunde brauchen. Entweder tun Sie sich mit der Programmierung unnötig schwer (das wäre dann mangelnde Übung) oder aber Sie versuchen zu viele Details in einem commit zusammen zu fassen.
+
+1.8. Wenn bei einem push eine Fehlermeldung erscheint, dann lesen Sie diese sorgfältig durch: In den meisten Fällen kommen Fehlermeldungen dadurch zustande, dass in der Zwischenzeit jemand anders etwas ins Repository gepusht hat. Und dann müssen Sie mergen!
+
+1.9. Schicken sie mir den vollständigen Link, mit dem ich dieses Repository clonen kann. (Um diesen zu bekommen gibt es bei GitHub eine grüne Schaltfläche mit dem Schriftzug "Clone or Download".)
+
+1.10. Fügen Sie mich zur Liste der Contributors Ihres Projekts hinzu.
+
+==================================
+=== Aufgabe 2 - Projektentwurf ===
+==================================
+
+!!! Wichtig !!!
+---------------
+Es geht nicht darum, dass Sie alles umsetzen, was sie hier entwerfen; es geht an dieser Stelle vielmehr darum, dass Sie erst ausarbeiten, was alles machbar oder wünschenswert wäre und Sie dann lernen, wie viel Sie im Moment schaffen. Wenn Sie hier gut gearbeitet haben, dann haben Sie damit die Planung für ein Projekt B schon weitgehend abgeschlossen. Also betrachten Sie diesen Teil bitte nicht als Zeitverschwendung.
+
+2.1. Sie werden eine kurze Projektidee bekommen und haben die Aufgabe, daraus einen Projektentwurf auszuarbeiten, der als Grundlage für die Entwicklung eines Softwareprojekts für ein Team geeignet ist.
+
+- Beschreiben Sie, was dieses Programm tut, bzw. wie Nutzer damit arbeiten, spielen oder wie auch immer interagieren.
+- Streichen Sie alles, was mit Design und konkreten Inhalten zu tun hat.
+- Die Beschreibung soll aus Stichpunkten bestehen, von denen jeder ein für die Programmierung relevantes Detail enthält.
+- Technische Möglichkeiten wie GPS-Location und andere aktuelle Möglichkeiten, die nur bei bestimmten Geräten zur Verfügung stehen dürfen nicht Teil des Projekts sein. Damit fallen auch Tastaturen und Mäuse raus!
+
+Speichern Sie diesen Entwurf in einer Datei namens Projektentwurf.txt, den Sie im Verzeichnis Dokumentation Ihres Repositories speichern.
+
+2.2. Jeder Eintrag in der Datei Projektentwurf.txt beginnt mit folgenden Zeilen, wobei Sie die Texte in Klammern durch das ersetzen, was hier jeweils zum Eintrag passt:
+
+==============================================================================
+=== [Titel des Eintrags], v_[Versionsnummer], [Datum im Format jjjj-mm-tt] ===
+==============================================================================
+
+2.3. Die neuesten Änderungen fügen Sie jeweils am Anfang des Dokuments ein. Ausnahme: Wenn Sie Tippfehler korrigieren oder einzelne Sätze ergänzen wollen, dann machen Sie das direkt dort, denken aber bitte daran, das Datum anzupassen.
+
+2.4. Hinweis: Feedback von mir werden Sie am Ende des Dokuments finden.
+
+2.5. (Verteilte Anwendung) Unter 2.1. haben Sie die Grundlage für die Struktur des Projekts gelegt. Nun müssen Sie sich überlegen, wie Sie die Idee so erweitern, dass das Projekt später nicht erweitert werden muss, damit beliebig viele Menschen die Anwendung gemeinsam nutzen können. Gerade wenn Sie ein Brettspiel adaptieren müssen Sie hier ggf. das Regelwerk und die Bestandteile des Spiels massiv überarbeiten.
+
+2.6. (Adaptive Anwendung) Dann müssen Sie das Projekt so erweitern, dass der Computer für jeden Nutzer bzw. jede Nutzerin individuell reagiert. Diesen Teil werden Sie mit höchster Wahrscheinlichkeit nicht im Rahmen des Projekts 1 umsetzen. Es geht hier darum, dass Sie eine Grundlage für eine zeitgemäße Anwendung haben. Die Grundlage dieser Idee werden die gespeicherten Eingaben von Nutzern sein (Stichwort: Jede einzelne Eingabe und die Abfolge der Eingaben werden für jeden Nutzer individuell gespeichert. Im realen Einsatz werden Sie ggf. eine Rechtsberatung wegen des Datenschutzes konsultieren müssen; für diese Projekt lassen Sie einfach Ihrer Kreativität freien Lauf.)
+
+2.7. In Zukunft und jedes Mal, wenn sich an irgend einer Stelle des Projekts etwas so ändert, dass es mit dem Projektentwurf im Widerspruch steht, ändern Sie alle Stellen so ab, dass keine Widersprüche mehr vorhanden sind.
+
+===========================================================
+=== Aufgabe 3 - Ausarbeitung der Struktur der Anwendung ===
+===========================================================
+
+Bevor wir mit der Programmierung eines umfangreichen Projekts beginnen, müssen wir seine Struktur ausarbeiten. Sonst werden wir bei späteren Änderungen mit höchster Wahrscheinlichkeit Fehler einbauen, die wir nie wieder loswerden. Hier die drei Teilaufgaben, die wir dazu lösen müssen:
+
+Aufg. 3.1) Dazu arbeiten wir zunächst einzig und allein die strukturellen Elemente aus, die nötig sind, um alle strukturellen Teile des Projektentwurfs umzusetzen.
+Aufg. 3.2) Dann entwerfen wir Microservices. Ein Microservice ist so etwas wie ein Modul, das wir an verschiedenen Stellen unseres Projekts wiederverwenden können. Manche Microservices brauchen wir vielleicht nur einmal, aber durch diese Modularisierung (ähnlich der Verwendung von Methoden und Klassen in Java) haben wir die Möglichkeit, später an genau den Stellen Korrekturen einzuarbeiten, wo sie nötig sind, ohne an anderen Stellen des Quellcodes etwas ändern zu müssen.
+Aufg. 3.3) Und schließlich kombinieren wir die Microservices zu einzelnen Ansichten zusammen. Eine Ansicht ist dabei das, was wir sehen, wenn wir als User eine Anwendung im Vollbildmodus nutzen.
+
+===========================================
+=== Aufgabe 3.1. - Strukturelle Elemente ===
+===========================================
+
+3.1.1. Lesen Sie sich jetzt Satz für Satz den Entwurf durch und überlegen Sie jeweils, welche strukturellen Elemente Sie benötigen, um den Entwurf umzusetzen. 
+
+Wichtig: Die meisten beginnen damit, sich gleich vollständige Ansichten zu überlegen, aber das ist falsch, weil Sie die Ansichten aus den Microservices aufbauen, die wiederum aus strukturellen Elementen bestehen.
+
+Hinweise, um Verwirrung zu vermeiden: 
+
+- Ein strukturelles Element ist z.B. eine Schaltfläche, ein Eingabefeld für ein Wort, ein Radiobutton, ein Label usw. Anders ausgedrückt: Praktisch alles, was Sie als HTML-Tag verwenden können, um ein Element in eine Anwendung einzufügen ist ein strukturelles Element. Bitte beachten Sie, dass eine jpg-Datei oder ein einfacher Text keine strukturellen Elemente sind. Es gibt aber strukturelle Elemente, über die diese eigefügt werden können.
+- HTML kennt keine Microservices. Aber wir können Microservices mit HTML programmieren.
+- Eine Ansicht ist alles, was innerhalb eines HTML-Dokuments steht. 
+
+3.1.2. Erstellen Sie eine Datei (Name und Speicherort siehe 3.4.), die mit den folgenden Zeilen beginnt:
+
+===========================================================
+=== Strukturelle Elemente, [Datum der letzten Änderung] ===
+===========================================================
+
+3.1.3. Notieren Sie nun die strukturellen Elemente, wobei Sie (im Gegensatz zum letzten Projekt 1) die einzelnen Elemente nach dem Typ sortieren, sie jeweils mit einem kurzen Kommentar versehen und fortlaufend nummerieren:
+
+== 01 Schaltflächen ==
+01_01 Angriff / Nutzer greift an
+01_02 GeheLinks / Charakter geht nach links
+01_03 GeheRechts / Charakter geht nach links
+
+== 02 Hyperlink ==
+02_01 ...
+
+== 03 ... ==
+03_01 ...
+03_02 ...
+
+== 102 input/submit ==
+102_01 submit
+
+== 103 input/date ==
+103_01 type=date / Eingabe des Geburtsdatums
+
+== 104 input/text ==
+104_03 type=text / Eingabe des Nutzernamens
+
+== 105 input/password ==
+105_04 type=password / Eingabe der vierstelligen Pin
+105_05 type=password / Eingabe des Passworts
+
+usw. usf.
+
+3.1.4. Speichern Sie die strukturellen Elemente in einer Datei namens strukt.txt im Verzeichnis Dokumentation.
+
+3.1.5. Im Laufe des Projekts werden Sie genau wie bei 2.7. immer wieder Änderungen an den strukturellen Elementen durchführen. Achten Sie deshalb auf zwei Dinge: (1) Vergeben Sie für jede Art von strukturellem Element eine eigene Nummer. (2) Lassen Sie genug Raum bei der Nummerierung, damit Sie ggf. ähnliche Elemente zusammen anordnen können. Es wäre beispielsweise schlecht, wenn Sie jetzt == 106 Hyperlink == definieren würden. Denn so können Sie später keine weiteren input types mehr direkt nach input/password in die Liste einfügen.
+
+3.1.6. Kontrollieren Sie immer wieder, ob Sie einzelne Elemente vielleicht mehrfach aufgenommen haben. Das passiert leicht, wenn Sie sich davon ablenken lassen, wofür Sie ein Element nutzen wollen und darüber vergessen, was für ein Element es ist. Denn für die Planung der Struktur spielt die Verwendung zunächst keine Rolle.
+
+===================================
+=== Aufgabe 3.2 - Microservices ===
+===================================
+
+3.2.1. Nach dem letzten strukturellen Element fügen Sie die folgenden Zeilen ein:
+
+===================================================
+=== Microservices, [Datum der letzten Änderung] ===
+===================================================
+
+3.2.2. Sammeln Sie nun all diejenigen strukturellen Elemente zusammen, die gemeinsam eine Aufgabe erfüllen. Typische Beispiele sind Log-In-Masken, Registrierungen, Spielfelder usw. usf.
+
+3.2.3. Beginnen Sie jeden Microservice mit folgender Zeile:
+
+== [römische Ziffer] - [Name des Microservices] ==
+
+Wichtig: Der Name des Microservices darf keine Leerzeichen oder Sonderzeichen (außer dem Unterstrich _ ) enthalten, da er später als Dateiname verwendet wird.
+
+3.2.4. Notieren Sie nun für jeden Microservice die enthaltenen strukturellen Elemente.
+
+3.2.5. Programmieren Sie eine Datei für jeden Microservice und speichern Sie diesen unter dem entsprechenden Namen mit der Endung .php im Verzeichnis Microservice Ihres Repositories.
+
+3.2.6. Wann immer es hier Änderungen gibt ... (Na das kennen Sie ja jetzt schon.)
+
+3.2.7. Und natürlich das Pushen entsprechend der Vorgaben unter "Arbeiten mit Git" nicht vergessen...
+
+3.2.8. Noch ein Hinweis mit dem Zaunpfahl: Wissen Sie, was ein Microservice ist? Nicht? Dann ist es ja nur gut, dass Sie mich gleich danach gefragt haben oder durch eine Recherche im Netz herausgefunden haben, was das ist, wozu man es braucht usw. Wie? Das haben Sie nicht? Nochmal der Hinweis: Wenn es Unklarheiten gibt, steht Ihnen meine Tür jederzeit offen. Also beklagen Sie sich bitte nicht gegenüber Kommilitonen darüber, welche Probleme Sie haben oder wie schlecht das Projekt ist usw., sondern reden Sie! Ein Studium ist dafür da, dass Sie sich in ein hochkomplexes Fachgebiet einarbeiten und unsere Veranstaltungen sind dafür da, um Sie dabei zu unterstützen. Nur müssen Sie dieses Angebot auch annehmen, wenn es Ihnen geboten wird. Dass das nach den Erfahrungen der Schulzeit eine harte Herausforderung ist, ist uns allen klar. Aber wenn Sie daran nicht arbeiten, dann verpassen Sie eine der wichtigsten Erfahrungen, die Sie im Studium machen können.
+
+===============================
+=== Aufgabe 3.3 - Ansichten ===
+===============================
+
+3.3.1. (Im Dokument strukt.txt) Nach dem letzten strukturellen Element fügen Sie die folgenden Zeilen ein:
+
+===============================================
+=== Ansichten, [Datum der letzten Änderung] ===
+===============================================
+
+3.3.2. Überlegen Sie sich nun, welche Microservices gemeinsam zu einer sinnvollen Ansicht zusammengestellt werden können.
+
+3.3.3. Hier gibt es zwei typische Fehler, die darauf beruhen, dass Sie es bislang gewöhnt sind, eine Anwendung aus der Sicht eines Users zu betrachten; als Entwickler ist vieles für Sie gewissermaßen spiegelverkehrt. Dazu kommt, dass wir im Moment einzig über die Struktur der Entwicklung sprechen und weder das Design noch die konkrete Funktionalität der strukturellen Elemente relevant sind:
+
+- Design ist für die strukturellen Elemente unwichtig; wenn Sie also an so etwas denken wie an einen Textinput für den Nutzernamen, der an verschiedenen Stellen unterschiedlich aussehen soll, dann ist das dennoch nur ein strukturelles Element.
+- Funktionalität ist für die strukturellen Elemente unwichtig; die Funktionalität binden Sie erst später über PHP ein.
+
+3.3.4. Notieren Sie nun jede Ansicht, indem Sie auch hier einen Namen vergeben, der später der Dateiname wird und notieren Sie danach die Namen der Microservices, aus denen die einzelnen Ansichten bestehen sollen. Das folgende ich nur ein Beispiel:
+
+== Gartenverwaltung ==
+I - Log-In
+II - Registrierung
+III - ...
+VI - ...
+...
+
+== Normierungsansicht ==
+VII - ...
+X - ...
+XX - ...
+...
+
+== ... ==
+...
+
+3.3.5. Entscheiden Sie, welche der Ansichten beim Start der Anwendung gezeigt werden soll und benennen Sie diese Ansicht in index um.
+
+3.3.6. Programmieren Sie jetzt die entsprechenden HTML-Dokumente, wobei Sie diese mit name.php im Wurzelverzeichnis des Repositories speichern. Denken Sie dabei an Internationalisierung, Lokalisierung und daran, dass die Verlinkungen auf Dateien vollständig sein müssen.
+
+3.3.7. Wenn Sie Microservices nicht includen, ist das ein Fehler.
+
+3.3.8. Eine Ansicht besteht niemals aus nur einem Microservice. Im Regelfall besteht Sie aus mindestens fünf oder mehr.
+
+3.3.9. Dieser Aufgabenteil ist dann schwer, wenn Sie bereits gut HTML 4 programmieren können oder Sie sich Code aus dem Web besorgen; während es sonst immer gut ist zu schauen, ob schon jemand eine Lösung gefunden hat, finden Sie für HTML meist nur Lösungen, die auf den Konzepten von HTML 4 basieren. HTML 5 bietet in den meisten Fällen eine wesentlich bessere Lösung in weniger Code als das bei HTML 4 der Fall ist. Wenn Sie das voll und ganz verstehen wollen, dann empfehle ich Ihnen einen HTML5-Kurs vom W3C, die den Standard entwickelt haben. Außerdem hatte ich im Kurs das Thema umfangreich besprochen.
+
+3.3.10. Wann immer sich strukturelle Elemente bzw. Microservices wiederholen, prüfen Sie, wie Sie diese Wiederholungen durch eine PHP-Iteration oder -Rekursion programmieren können. HTML-Dokumente, in denen dreimal (oder noch öfter) die nahezu identischen Code-Abschnitte enthalten sind extrem schlechter Stil, weil sie die Fehlerwahrscheinlichkeit und den Arbeitsaufwand bei der Programmierung massiv erhöhen. Amateure wissen es meist nicht besser, Sie dagegen kennen Schleifen und wissen, wie Sie sie (z.B. in Kombination mit einem Array) nutzen können. Also nutzen Sie sie.
+
+(Tipp: Wenn Sie bis hierhin gut gearbeitet haben, können Sie bereits jetzt mit dem Projekt fertig sein.)
+
+======================================
+== Aufgabe 4 und 5 - PHP und MySQL ===
+======================================
+
+Die letzten beiden Aufgaben umfassen die Implementierung der Funktionalitäten (also u.a. die Auswertung von Formularen) und an allen nötigen Stellen die Anbindung einer Datenbank. Auf diese beiden Punkte gehe ich hier kaum ein, weil Sie hier entweder das Wissen aus der Veranstaltung "Programmieren 1" anwenden müssen oder weil Sie die entsprechenden Teile in der Veranstaltung "Relationale Datenbanken" noch vertiefen werden.
+
+Und da Sie dort einen eigenständigen Leistungs- oder Prüfungsnachweis erbringen müssen, das Projekt 1 aber eine eigenständige Leistung ist, basiert die zu erbringende Leistung vorrangig auf den Teilen Projektentwurf, Ausarbeitung der Struktur und Umsetzung in HTML5. Anhand der imperativen Programmierung in PHP bzw. der Anbindung einer Datenbank können Sie im Bedarfsfall noch Punkte nachholen.
+
+Nur so viel an dieser Stelle:
+
+4.1. Für die Auswertung eines Formulars erstellen Sie ein PHP-Programm, das Sie im Verzeichnis Funktionalitaeten speichern und dessen Name wie folgt aufgebaut ist:
+
+form_eval_NameDesMicroservices.php
+
+4.2. Für jede Transaktion erstellen Sie eine PHP-Datei, die Sie im Verzeichnis Funktionalitaeten speichern und deren Name wie folgt aufgebaut ist:
+
+db_transact_NameDerTransaktion
+
+Für NameDerTransaktion können Sie sich selbst etwas überlegen; in diesem Fall gibt es also keine Konvention.
+
+===============================
+== Hinweis bezüglich Design ===
+===============================
+
+Oben haben Sie gesehen, dass es ein Verzeichnis mit dem Namen Design gibt, über das aber an keiner Stelle weiter etwas gesagt wird. Wann immer Sie CSS-Dokumente erstellen, speichern Sie sie bitte in diesem Verzeichnis. Design ist aber kein Teil des Projekts, Sie dürfen sich zwar damit beschäftigen, wenn Sie das wollen, aber es ist wie gesagt nicht für das Projekt 1 relevant.
+
+Wenn Sie dagegen Design mittels des style-Attributs programmieren, dann ist das fürs Projekt relevant: Es gibt einen Malus auf Ihre Wertung.
+
+================================
+== Hinweis bezüglich E-Mails ===
+================================
+
+Leider schicken regelmäßig Studierende E-Mails mit persönlichen Anfragen oder Kritik. Dabei sind aber nicht die Anfragen oder Kritik das Problem, sondern dass Sie sie per E-Mail schicken und eine individuelle Antwort per Mail erwarten. Denn mit meinen Aufgabenstellungen und dem Skript haben Sie ja bereits umfassende schriftliche Erklärungen, da ist es zweifelhaft, dass Ihnen eine weitere schriftliche Erklärung hilft. Wenn Sie ein Problem haben oder Kritik üben wollen, dann ist der einzig sinnvolle Weg der, dass wir darüber reden. Und das können wir jederzeit in meinem Büro oder auch im Seminar tun. Abgesehen davon dauert es deutlich länger eine Erklärung schriftlich zu erstellen, als mündlich. Und je mehr Zeit ich für das Erstellen von Texten (incl. E-Mails) aufwende, desto weniger Zeit bleibt mir, um Ihnen allen eine gute Betreuung fürs Projekt zu bieten.
+
+========================================================
+== Ende der Übersicht der Regeln, Stand: 13. 09. 2016 ==
+==== Es folgt eine Übersicht über die Wertungsskala ====
+========================================================
+
+======================================
+=== Wertung 1: Formale Vorgaben: - ===
+======================================
+- Missachtung der Konventionen für Dateinamen, Verzeichnisstruktur usw. (je -1 Pk.)
+
+=================================================
+=== Wertung 2: Projektentwurf: gesamt: n / 10 ===
+=================================================
+- Knappe aber klare Beschreibung 0 bis 5 Pk.:
+- Pro Strategie des Computers, die die individuellen Züge des Spielers adaptiert 0 bis 5 Pk.:
+=== (Malus beim Projektentwurf) ===
+- Werbeslogans u.ä. -5 bis 0 Pk.:
+- Designaspekte -5 bis 0 Pk.:
+- Voraussetzung bekannten Wissens -5 bis 0 Pk.:
+
+================================================================
+=== Wertung 3: Ausarbeitung der strukt. Elem. gesamt: n / 10 ===
+================================================================
+- Knappe Form (0 - 3 Pk.):
+- Für je 5 unterschiedl. strukt. Elem (keine Gruppierungen) 1 Pk.: 
+=== (Malus bei strukt. Elem.) ===
+- Vermischung strukt. Elem., Gruppierung, Abläufe usw. -5 bis 0 Pk.: 
+
+=======================================
+=== Wertung 4: Microservices: n / 5 ===
+=======================================
+- für jeden sinnvollen Microservice 1 Pk.:
+
+=========================================
+=== Wertung 5: Ansichten/Views: n / 5 ===
+=========================================
+- für jede sinnvolle Ansicht 1 Pk.: 
+
+Aufgabe 6 und 7 setzen voraus, dass in Aufgabe 1 - 5 insgesamt min. 20 Punkte erreicht wurden.
+
+=================================
+=== Wertung 6: HTML 5: n / 10 ===
+=================================
+- Umsetzung pro Microservice je 1 Pk.:
+- Missachtung von Änderungen von HTML 4.01 zu 5 (-5 bis 0 Pk.):
+
+====================================
+=== Wertung 7: PHP/MySQL: n / 30 ===
+====================================
+- Funktionalität von Formularen 0 bis 5 Pk.:
+- Funktionalität für Microservices 0 bis 5 Pk.:
+- Realisierung einer Programmlogik 0 bis 10 Pk.:
+- Erzeugung einer DB 0 bis 5 Pk.:
+- Anbindung einer Transaktion, um Variablen in der Anwendung zu verwenden 0 bis 5 Pk.:
