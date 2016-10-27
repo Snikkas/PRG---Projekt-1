@@ -7,17 +7,11 @@ Projekt 1: Priaten Simulation
 =============================
 =============================
 
-
 Projektentwurf - Leitfaden:
 
-
 1. Spieler ist Eigentümer/Kapitän eines Schiffes
-
 2. Piraten überfallen die Schiffe der Spieler
-
 3. Spieler muss in der Lage sein sich auf die Angriffe vorzubereiten, sodass er diese Abweheren/Umgehen kann
-
-
 
 ==============================================================================
 === [Beschreibung des Projekts], v_[0.2], [2016-10-18] ===
@@ -61,57 +55,27 @@ Gegnertypen. D.h es gibt Typen von Schaden, gegen die die Gegner jeweils resiste
 -Wenn das Spiel beendet wird, ob erfolgreich oder nicht, soll dementsprechend ein Endbildschirm zusehen sein, welches "Sieg" oder "Niederlage" anzeigt. 
 -Weiter unten im Fenster sollen dann Buttons sein. "Neustart", "Zurück zum Hauptmenü" und "Spiel Beenden"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ==============================================================================
 === [UNTEN - Content-Ideen-Brainstorm], v_[0.21], [2016-10-18] ===
 ==============================================================================
 ============================
 ============================
 
-
 1.1)
 Spielentwurf grafisch / Textspiel?
 
-
-
-
-
 ============================
-
 
 2.2)
 Spielentwurf grafisch / Textspiel?
 
-
-
-
-
 ============================
-
 
 3.3)
 Dinge die man als Spieler braucht, um Angriffe abzuwehren oder zu umgehen:
 
-
-
-
-
 3.31
 -Prävention/Präventiv:
-
-
 
 3.32
 -Reaktion/Reaktiv:
@@ -128,3 +92,38 @@ Dinge die man als Spieler braucht, um Angriffe abzuwehren oder zu umgehen:
 Leider kann ich zurzeit kaum ein Feedback abgeben, da Sie abgesehen von den drei Stichpunkten am Anfang noch kaum etwas ausgearbeitet haben. Diese drei Stichpunkte entsprechen dagegen der Projektidee, die Sie erhalten haben.
 
 Außerdem fehlt die vorgegebene Verzeichnisstruktur bislang vollständig.
+
+===================================
+=== Feedback Alpers, 2016-10-27 ===
+===================================
+
+Leider haben Sie die Aufgabenstellung missverstanden. Ihre Aufgabe besteht darin, aus der Projektidee einen Entwurf als Basis für die Umsetzung zu erstellen. Struktur, Design und Usability sind an dieser Stelle Fehler.
+
+Außerdem soll dieser Entwurf Stichpunktcharakter haben, also gerade nicht in ausführlichen Sätzen formuliert sein.
+
+Beispiel:
+== 1.) -Das Spiel soll über ein Desktopsymbol aufrufbar sein.
+
+Für den Entwurf irrelevant. Für eine verteilte Anwendung falsch.
+
+== 2.) -Nach dem Starten wird man in ein Hauptmenu geführt. Hier muss es Dinge geben, wie ein "Spiel starten" sowie "Beenden" und "Wie spiele ich" Knopf geben. D.h. funktionierende Knöpfe. 
+
+Damit greifen Sie der Struktur vor.
+
+== 3.) -Beim Klick auf "Wie spiele ich" soll sich ein weiteres Fenster öffnen, dass mit mindestens einem Button versehen ist, um wieder zurück zum Hauptmenu zu kommen. Des Weiteren kann es sein, je nachdem wie viel dort geschrieben ist, dass man eine Scrollbar benötigt, oder weitere Buttons, um von Seite 1 auf die nächste Seite zu wechseln. Diese soll allerdings im selben Fenster auftauchen. Lediglich der Text innerhalb des Fensters soll sich ändern.
+
+Design und Usability.
+
+== 4.) -Das Hauptmenu wird in einem Fenster zu sehen sein, dass ein eigenes Element ist. D.h die Knöpfe sollen nicht lose im Raum herumschweben.
+
+Design und Usability.
+
+== 5.) -Die Fenstergröße, wenn man die Anwendung startet, soll für's erste nur knapp größer sein, als das Hauptmenu.
+
+Design und Usability.
+
+== 6.) -/ Eventuell kann man noch einbauen, dass sich das UI (user interface) im Verhältnis zur Fenstergröße der Anwendung skaliert.
+
+Design und Usability.
+
+Im aktuellen Zustand lässt sich aus diesem Dokument keine Struktur ableiten. Deshalb ist die strukt.txt auch noch nicht bewertbar.
