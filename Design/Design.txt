@@ -1,0 +1,11 @@
+== 1.) -Beim Klick auf "Wie spiele ich" soll sich ein weiteres Fenster öffnen, dass mit mindestens einem Button versehen ist,
+um wieder zurück zum Hauptmenu zu kommen. Des Weiteren kann es sein, je nachdem wie viel dort geschrieben ist,
+dass man eine Scrollbar benötigt, oder weitere Buttons, um von Seite 1 auf die nächste Seite zu wechseln.
+Diese soll allerdings im selben Fenster auftauchen. Lediglich der Text innerhalb des Fensters soll sich ändern.
+
+== 2.) -Das Hauptmenu wird in einem Fenster zu sehen sein, dass ein eigenes Element ist.
+D.h die Knöpfe sollen nicht lose im Raum herumschweben.
+
+== 3.) -Die Fenstergröße, wenn man die Anwendung startet, soll für's erste nur knapp größer sein, als das Hauptmenu.
+
+== 4.) -/ Eventuell kann man noch einbauen, dass sich das UI (user interface) im Verhältnis zur Fenstergröße der Anwendung skaliert.
