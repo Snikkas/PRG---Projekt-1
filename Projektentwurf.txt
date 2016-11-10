@@ -1,8 +1,13 @@
 ==============================================================================
 === [Neuentwurf der Projektidee], v_[0.30], [2016-11-10] ===
 ==============================================================================
-Das Spiel beinhaltet eine Simulation von Begegnung mit Piraten auf einer Schiffsreise, die der Spieler antritt. Vom Startpunkt bis zum
-Endpunkt muss der Spieler sich gegen die unterschiedlichsten Piratentypen behaupten, deren Arten und Handlungsweisen sich von Umgebung zu Umgebung unterscheiden. Ferner reagieren diese Piraten auf die Aktionen des Spielers und passen sich flexibel an. Der Spieler muss also mit Geschick und klugem Denken die Piraten überwältigen oder umgehen.
+Einleitende Beschreibung:
+
+Das Spiel beinhaltet eine Simulation von Begegnung mit Piraten auf einer Schiffsreise, die der Spieler antritt.
+Vom Startpunkt bis zum Endpunkt muss der Spieler sich gegen die unterschiedlichsten Piratentypen behaupten, deren Arten und Handlungsweisen sich von Umgebung zu Umgebung unterscheiden.
+Ferner reagieren diese Piraten auf die Aktionen des Spielers und passen sich flexibel an.
+Der Spieler muss also mit Geschick und klugem Denken die Piraten überwältigen oder umgehen.
+
 
 - Hauptmenü
 - Ausrüstungsmenü
@@ -23,13 +28,6 @@ Endpunkt muss der Spieler sich gegen die unterschiedlichsten Piratentypen behaup
 - Die Karte ist aufgeteilt in verschiedene Areale
 - Jedes Areal beinhaltet seine eigene Gegnertypen
 - Wegpunkte mit zufälligen Events
-
-
-
-
-
-
-
 
 
 
