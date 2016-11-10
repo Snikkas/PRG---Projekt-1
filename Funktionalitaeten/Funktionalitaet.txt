@@ -1,0 +1,47 @@
+== 01 Trigger ==
+01_01 Erkennen, wenn Inventar voll ist
+01_02 Gegner tritt auf beim Betreten einer Node
+01_03 Erkennen von Gegenmaßnahmen des Spielers
+01_04 Unterscheiden zwischen Reaktiven und Präventiven Gegenmaßnahmen
+01_05 Generieren eines zufälligen Gegners mit Gegnertypen Attributen
+01_06 Generieren in Abstimmung zu den jeweiligen Muscles, über die der Spieler geht
+01_07 Final-Node / Ende des Spiels beim Erreichen
+01_08 Tod des Spielers
+01_09 Generieren der Gegner in Abstimmung zu den Präventiven Gegenmaßnahmen
+01_10 Generieren der Gegner in Abstimmung zu der Umgebung
+
+== 02 Bewegung ==
+02_01 Bewegung durch Mausklick
+02_02 Bewegung des Spieles zu einer Node
+02_03 Bewegung möglich nur zu einer mit einem Muscle verbundenen Node
+02_04 Bewegung immer nur schrittweise; keine Node darf übersprungen werden
+
+== 03 Gegner ==
+03_01 Tauchen auf
+03_02 Sind auf die Ausrüstung des Spielers abgestimmt
+03_03 Sind auf die Umgebung abgestimmt
+03_04 Haben verschiedene Schwierigkeiten
+03_05 Haben Schwächen
+03_06 Haben Stärken
+03_07 Haben Verhaltensmuster
+
+== 04 Wegpunkte / Nodes ==
+04_01 Zufällige generierte Anordnung der Nodes
+
+== 05 Verbindungen / Muscles ==
+05_01 Zufällige Musclestärken und Musclelängen zwischen den Nodes
+05_02 Keine Node darf mit mehr als zwei Muscles verbunden sein
+05_03 Die Länge des Muscles bestimmt die Anzahl der Gegner
+05_04 Die Stärke des Muscles bestimmt die Schwierigkeit der Gegner
+
+== 06 Schaden ==
+06_01 Gegner verursachen Schaden
+06_02 Spieler verursacht Schaden
+06_03 Schaden wird von den jeweiligen Stärken und Schwächen abhängig gemacht
+06_04 Schaden wird von der jeweiligen Ausrüstung abhängig gemacht
+
+== 07 Lebensanzeige ==
+07_01 Gegner haben eine Lebensanzeige
+07_02 Schwierigkeit des Gegners bestimmt, wie viel Leben er hat
+07_03 Spieler hat eine Lebensanzeige
+07_04 Ausrüstungen bestimmen, wie viel Leben der Spieler hat
