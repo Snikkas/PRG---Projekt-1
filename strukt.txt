@@ -3,15 +3,79 @@
 
 === Strukturelle Elemente, [2016-10-18] ===
 ===========================================================
-== 01 Schaltfl�chen ==
-01_01 Spiel Starten / Im Hauptmen�: Starten des Spiels
-01_02 Spiel Beenden / Im Hauptmen�: Beenden des Spiels
-01_03 Wie spiele ich / Im Hauptmen�: �ffnet ein Fenster
+== 01 Schaltfläche ==
+01_01 Spiel Starten / Im Hauptmenü: Starten des Spiels
+01_02 Spiel Beenden / Im Hauptmenü: Beenden des Spiels
+01_03 Wie spiele ich / Im Hauptmenü: öffnet ein Fenster
+01_04 Zurück / Im Wie spiele ich Fenster
+01_05 Pause /Im Spiel
+01_06 Neustart / ESC Menü
+01_07 Spiel Beenden / ESC Menü
+01_08 Zurück zum Hauptmenü / ESC Menü
+01_09 Bereit / Im Ausrüstungsfenster
+01_10 Angriff / Spieler greift an
 
 == 02 Fenster ==
+02_01 Wie spiele ich 
+02_02 Das Hauptmenü
+02_03 Pause
+02_04 ESC Menü
+02_05 Inventar
+02_06 Auswählbare Ausrüstungen
+02_07 Tooltip der Ausrüstungen
+02_08 Karte
+02_09 Kampf
+02_10 Ende / Mit den Schaltflächen: Neustart, Spiel Beenden und Zurück zum Hauptmenü
 
-== 03 Inventar ==
+== 03 Scrollbar ==
+03_01 Im Fenster Wie spiele ich
+03_02 Im Ausrüstungsfenster
+03_03 Im Inventar
+03_04 Jeder Tooltip
 
+== 04 Item ==
+04_01 Auswählbare Objekte / Ausrüstungen als Array
+04_02 Präventive Gegenmaßnahmen
+04_03 Reaktive Gegenmaßnahmen
+
+== 05 Textarea ==
+05_01 Im Fenster Wie spiele ich
+05_02 Jeder Ausrüstungsgegenstand
+
+== 07 Image ==
+07_01 Hintergrund des Hauptmenüs
+07_02 Ausrüstungsgegenstände
+07_03 Karte
+07_04 Gegnertypen
+07_05 Node
+
+== 08 Node ==
+08_01 Wegpunkte auf der Karte
+08_02 Final-Node
+
+== 09 Muscle ==
+09_01 Verbindung zwischen Nodes
+09_02 Musclestärke
+09_03 Musclelänge
+
+== 09 Gegnertypen ==
+09_01 Umgebung
+09_02 Ausrüstung
+09_03 Schwierigkeit
+09_04 Schwächen
+09_05 Stärken
+09_06 Verhaltensmuster
+09_07 Anzahl
+09_08 Lebensanzeige
+
+== 10 Lebensanzeige ==
+10_01 Tabelle / auch als array umsetzbar
+
+== 11 Umgebung ==
+11_01 Wüste
+11_02 Wald
+11_03 Meer
+11_04 Stadt
 
 ===================================================
 === Microservices, [2016-10-18] ===
